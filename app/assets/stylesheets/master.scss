@@ -1,1 +1,24 @@
 @import "bootstrap";
+
+h1 {
+	color: #4294FF;
+	font-size: 72px;
+	font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
+	text-align: center;
+	padding-top: 10px;
+}
+
+h2 {
+	
+	font-size: 32px;
+	text-align: center;
+}
+
+body {
+	background: image_url('old_map.png');
+}
+
+.navbar {
+	background: image_url('sprinkles.png')
+}
+
