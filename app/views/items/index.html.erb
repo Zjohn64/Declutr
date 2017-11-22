@@ -1,2 +1,11 @@
 <h1>Declutr</h1>
 <h2>"Let someone else take away that clutter in your home"</h2>
+
+<% @items.each do |item| %>
+  <div class="hyphy-box col-10 offset-1">
+    <h1><%= link_to item.name, item_path(item) %></h1><br />
+    <h2><%= item.price %></h2><br /><br />
+    <i><%= item.address %></i><br /><br />
+    <p><%= item.description %></p><br />
+  </div>
+<% end %>

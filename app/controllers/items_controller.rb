@@ -16,6 +16,6 @@ class ItemsController < ApplicationController
 	private
 
 	def place_params
-		params.require(:place).premit(:name, :price, :description, :address)
+		params.require(:item).permit(:name, :price, :description, :address)
 	end
 end
