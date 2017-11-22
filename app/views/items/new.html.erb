@@ -1,0 +1,12 @@
+<div class="hyphy-box col-10 offset-1">
+	<h1>Enter Your Place Details</h1>
+		<%= simple_form_for @item do |f| %>
+    <%= f.input :name %>
+    <%= f.input :price %>
+    <%= f.input :description %>
+    <%= f.input :address %>
+    <br />
+    <%= f.submit 'List My Product', class: 'btn btn-primary' %>
+  <% end %>
+	<br />
+</div>
